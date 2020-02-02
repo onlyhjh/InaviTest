@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B437D638563E17C29BC0C012 /* libPods-InaviTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A5957C2C328B722ED87594 /* libPods-InaviTest.a */; };
+		F47034A623E5109000FC9076 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47034A523E5109000FC9076 /* MainScreen.storyboard */; };
+		F47034A823E5110B00FC9076 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47034A723E5110B00FC9076 /* MainViewController.swift */; };
+		F47034AA23E6D44600FC9076 /* GoogleMapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47034A923E6D44600FC9076 /* GoogleMapUtils.swift */; };
+		F47034AC23E6F60900FC9076 /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47034AB23E6F60900FC9076 /* ExtensionClass.swift */; };
 		F4E1F4EB23E5029100F95B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1F4EA23E5029100F95B79 /* AppDelegate.swift */; };
 		F4E1F4ED23E5029100F95B79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1F4EC23E5029100F95B79 /* SceneDelegate.swift */; };
-		F4E1F4EF23E5029100F95B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1F4EE23E5029100F95B79 /* ContentView.swift */; };
 		F4E1F4F123E5029B00F95B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E1F4F023E5029B00F95B79 /* Assets.xcassets */; };
 		F4E1F4F423E5029B00F95B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E1F4F323E5029B00F95B79 /* Preview Assets.xcassets */; };
 		F4E1F4F723E5029B00F95B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1F4F523E5029B00F95B79 /* LaunchScreen.storyboard */; };
@@ -35,10 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51C78F3E0695CC3367FFC523 /* Pods-InaviTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InaviTest.release.xcconfig"; path = "Target Support Files/Pods-InaviTest/Pods-InaviTest.release.xcconfig"; sourceTree = "<group>"; };
+		DD7BEFB6265628C82C66B49F /* Pods-InaviTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InaviTest.debug.xcconfig"; path = "Target Support Files/Pods-InaviTest/Pods-InaviTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A5957C2C328B722ED87594 /* libPods-InaviTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InaviTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47034A523E5109000FC9076 /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
+		F47034A723E5110B00FC9076 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F47034A923E6D44600FC9076 /* GoogleMapUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapUtils.swift; sourceTree = "<group>"; };
+		F47034AB23E6F60900FC9076 /* ExtensionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionClass.swift; sourceTree = "<group>"; };
 		F4E1F4E723E5029100F95B79 /* InaviTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InaviTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E1F4EA23E5029100F95B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E1F4EC23E5029100F95B79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4E1F4EE23E5029100F95B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4E1F4F023E5029B00F95B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E1F4F323E5029B00F95B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4E1F4F623E5029B00F95B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B437D638563E17C29BC0C012 /* libPods-InaviTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69E28D4F38977D9EE7E9B604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7BEFB6265628C82C66B49F /* Pods-InaviTest.debug.xcconfig */,
+				51C78F3E0695CC3367FFC523 /* Pods-InaviTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E27040DFE34E849BE9F6152D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5957C2C328B722ED87594 /* libPods-InaviTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4E1F4DE23E5029100F95B79 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				F4E1F50023E5029B00F95B79 /* InaviTestTests */,
 				F4E1F50B23E5029C00F95B79 /* InaviTestUITests */,
 				F4E1F4E823E5029100F95B79 /* Products */,
+				69E28D4F38977D9EE7E9B604 /* Pods */,
+				E27040DFE34E849BE9F6152D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +131,13 @@
 			children = (
 				F4E1F4EA23E5029100F95B79 /* AppDelegate.swift */,
 				F4E1F4EC23E5029100F95B79 /* SceneDelegate.swift */,
-				F4E1F4EE23E5029100F95B79 /* ContentView.swift */,
 				F4E1F4F023E5029B00F95B79 /* Assets.xcassets */,
 				F4E1F4F523E5029B00F95B79 /* LaunchScreen.storyboard */,
 				F4E1F4F823E5029B00F95B79 /* Info.plist */,
+				F47034A523E5109000FC9076 /* MainScreen.storyboard */,
+				F47034A723E5110B00FC9076 /* MainViewController.swift */,
+				F47034A923E6D44600FC9076 /* GoogleMapUtils.swift */,
+				F47034AB23E6F60900FC9076 /* ExtensionClass.swift */,
 				F4E1F4F223E5029B00F95B79 /* Preview Content */,
 			);
 			path = InaviTest;
@@ -143,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4E1F51123E5029C00F95B79 /* Build configuration list for PBXNativeTarget "InaviTest" */;
 			buildPhases = (
+				1A3576C947130C967044FB66 /* [CP] Check Pods Manifest.lock */,
 				F4E1F4E323E5029100F95B79 /* Sources */,
 				F4E1F4E423E5029100F95B79 /* Frameworks */,
 				F4E1F4E523E5029100F95B79 /* Resources */,
+				0D9DB8DBDA20529039D420C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E1F4F723E5029B00F95B79 /* LaunchScreen.storyboard in Resources */,
+				F47034A623E5109000FC9076 /* MainScreen.storyboard in Resources */,
 				F4E1F4F423E5029B00F95B79 /* Preview Assets.xcassets in Resources */,
 				F4E1F4F123E5029B00F95B79 /* Assets.xcassets in Resources */,
 			);
@@ -262,14 +298,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D9DB8DBDA20529039D420C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InaviTest/Pods-InaviTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InaviTest/Pods-InaviTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InaviTest/Pods-InaviTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A3576C947130C967044FB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InaviTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4E1F4E323E5029100F95B79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47034AC23E6F60900FC9076 /* ExtensionClass.swift in Sources */,
 				F4E1F4EB23E5029100F95B79 /* AppDelegate.swift in Sources */,
 				F4E1F4ED23E5029100F95B79 /* SceneDelegate.swift in Sources */,
-				F4E1F4EF23E5029100F95B79 /* ContentView.swift in Sources */,
+				F47034A823E5110B00FC9076 /* MainViewController.swift in Sources */,
+				F47034AA23E6D44600FC9076 /* GoogleMapUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +512,7 @@
 		};
 		F4E1F51223E5029C00F95B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7BEFB6265628C82C66B49F /* Pods-InaviTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +533,7 @@
 		};
 		F4E1F51323E5029C00F95B79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C78F3E0695CC3367FFC523 /* Pods-InaviTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
